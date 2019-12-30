@@ -1503,12 +1503,12 @@ function twoSum2($nums, $target)
 
 $s   = -hrtime(true);
 $res = twoSum($nums, $target);
-echo 'twoSum:'.($s += hrtime(true)) / 1e+6 .'result:['.join(',', $res).']'.PHP_EOL;
+echo 'twoSum:'.($s += hrtime(true)) / 1e+6 .' result:['.join(',', $res).']'.PHP_EOL;
 
 $s   = -hrtime(true);
 $res = twoSum1($nums, $target);
-echo 'twoSum1:'.($s += hrtime(true)) / 1e+6 .'result:['.join(',', $res).']'.PHP_EOL;
+echo 'twoSum1:'.($s += hrtime(true)) / 1e+6 .' result:['.join(',', $res).']'.PHP_EOL;
 
 $s   = -hrtime(true);
 $res = twoSum2($nums, $target);
-echo 'twoSum2:'.($s += hrtime(true)) / 1e+6 .'result:['.join(',', $res).']'.PHP_EOL;
+echo 'twoSum2:'.($s += hrtime(true)) / 1e+6 .' result:['.join(',', $res).']'.PHP_EOL;
